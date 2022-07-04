@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trombones Project</title>
+    <script src="https://kit.fontawesome.com/26039074b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- User Stories:
+
+Your product landing page should have a header element with a corresponding id="header"
+You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+You can see at least three clickable elements inside the nav element, each with the class nav-link
+When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
+You can watch an embedded product video with id="video"
+Your landing page has a form element with a corresponding id="form"
+Within the form, there is an input field with id="email" where you can enter an email address
+The #email input field should have placeholder text to let users know what the field is for
+The #email input field uses HTML5 validation to confirm that the entered text is an email address
+Within the form, there is a submit input with a corresponding id="submit"
+When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
+The navbar should always be at the top of the viewport
+Your product landing page should have at least one media query
+Your product landing page should utilize CSS flexbox at least once
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+
+👍🏻You should have a header element with an id of header.👍🏻
+
+👍🏻You should have an img element with an id of header-img.
+
+👍🏻Your #header-img should be a descendant of the #header.
+
+👍🏻Your #header-img should have a src attribute.
+
+👍🏻Your #header-img’s src value should be a valid URL (starts with http).
+
+👍🏻You should have a nav element with an id of nav-bar.
+
+👍🏻Your #nav-bar should be a descendant of the #header.
+
+👍🏻You should have at least 3 .nav-link elements within the #nav-bar.
+
+👍🏻Each .nav-link element should have an href attribute.
+
+👍🏻Each .nav-link element should link to a corresponding element on the landing page (has an href with a value of another element's id. e.g. #footer).
+
+👍🏻You should have a video or iframe element with an id of video.
+
+👍🏻Your #video should have a src attribute.
+
+👍🏻You should have a form element with an id of form.
+
+👍🏻You should have an input element with an id of email.
+
+👍🏻Your #email should be a descendant of the #form.
+
+👍🏻Your #email should have the placeholder attribute with placeholder text.
+
+👍🏻Your #email should use HTML5 validation by setting its type to email.
+
+👍🏻You should have an input element with an id of submit.
+
+👍🏻Your #submit should be a descendant of the #form.
+
+👍🏻Your #submit should have a type of submit.
+
+👍🏻Your #form should have an action attribute of https://www.freecodecamp.com/email-submit.
+
+👍🏻Your #email should have a name attribute of email.
+
+👍🏻Your #nav-bar should always be at the top of the viewport.
+
+           👍🏻Your Product Landing Page should use at least one media query.
+
+            👍🏻 Your Product Landing Page should use CSS Flexbox at least once.
+-->
+<header id="header">
+    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+    alt="logo" width="350"/>
+    <nav id="nav-bar">
+        <a class="nav-link" href="#pmat">Features</a>
+        <a class="nav-link" href="#how-it-works">How It Works</a>
+        <a class="nav-link" href="#Pricing">Pricing</a>
+    </nav>
+    
+</header>
+
+<main>
+    <div class="masterpiece">
+        <h1>Handcrafted, home-made masterpieces</h1>    
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" placeholder="Enter your email" type="email" name="email" required/>
+        <input id="submit" type="submit"/>
+        </form>
+    </div>
+
+    <section id="Features">
+        <div id="pmat" class="Materials">
+            <div class="icons"><i class="fa-solid fa-fire-flame-curved fa-4x"></i></div>
+                <div class="content"><h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></div>
+        </div>
+        <div class="Materials">
+            <div class="icons"><i class="fa-solid fa-truck fa-4x"></i></div>
+            <div class="content"><h2>Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div>
+        </div>
+        <div class="Materials">
+            <div class="icons"><i class="fa-solid fa-battery-full fa-4x"></i></div>
+            <div class="content"><h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="Pricing">
+        <div class="prices prices1">
+            <div><h3>TENOR TROMBONE</h3></div>
+            
+            <h4>$600</h4>
+            <ul>
+                
+                <li>Lorem ipsum.</li>
+                <li>Plays similar to a Trumpet</li>
+                <li>Lorem ipsum.</li>
+                <li>Smart work</li>
+                <li>Lorem ipsum.</li>
+            </ul>
+            <button>Select</button>
+        </div>
+        <div class="prices prices2">
+            <div><h3>BASS TROMBONE</h3></div>
+            <h4>$900</h4>
+            <ul>
+                <li>Lorem ipsum Lorem ipsum.</li>
+                <li>Lorem.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum, Lorem ipsum and Lorem ipsum.</li>
+            </ul>
+            <button>Select</button>
+        </div>
+        <div class="prices prices3">
+            <div><h3>VALVE TROMBONE</h3></div>
+            <h4>$1200</h4>
+            <ul>
+                <li>Plays similar to a Trumpet.</li>
+                <li>Lorem ipsum.</li>
+                <li>Plays similar to a Trumpet</li>
+                <li>Lorem ipsum.</li>
+                <li>Plays similar to a Trumpet</li>
+                <li>Lorem ipsum.</li>
+            </ul>
+            <button>Select</button>
+        </div>
+    </section>
+    
+</main>
+<footer>
+    <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <p>Copyright 2016, Original Trombones</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+
+}
+#header-img{
+    width: 300px;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+
+#Features
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.Materials{
+    
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 200px;
+    width: 60%;      
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-solid
+{
+width: 100px;
+height: 100px;
+color: rgb(202, 117, 13);
+text-align: center;
+border-radius: 50%;
+}
+
+.content{
+    height: 100px;
+    width: 80%;
+    
+    
+}
+h2{
+    margin: 0;
+}
+#nav-bar{
+   
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.nav-link{
+    padding: 50px;
+    text-decoration: none;
+    color: rgb(71, 82, 235);
+    font-size: 18px;
+    font-weight: 800;
+    
+}
+
+#header{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    position: sticky;
+    top:0;
+    background-color: whitesmoke;
+    
+    
+}
+.masterpiece{
+    
+    text-align: center;
+   
+}
+#email{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 25px;
+    font-size: 17px;
+    
+}
+#submit{
+    margin-bottom: 20px;
+    background: rgb(138, 138, 212);
+    color: white;
+    height: 30px;
+    width: 10%;
+    border-radius:8px;
+    font-size: 17px;
+}
+#video{
+width: 30%;
+height: 270px;
+
+}
+#how-it-works{
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+       
+    }
+
+    #Pricing{
+        width: 70%;
+        height: 500px;
+       
+        display: grid;
+        grid-template-columns: 2.5fr 2.5fr 2.5fr;
+        gap:10px;
+        margin: auto;
+        font-size: 18px;
+        padding: 0;
+        
+    }
+    .prices
+    {
+        border: 1px solid black;
+        height: 450px;
+        text-align: center;
+        
+    }
+
+    h3{
+        text-align: center;
+        margin: 0;
+        font-weight: 800;
+        padding-top: 15px;
+        
+    }
+   .prices div{
+    height: 50px;   
+    background-color: gainsboro;  
+      
+   
+   }
+
+   .prices ul li{
+    list-style: none;
+    text-align: center;   
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+   }
+
+   .prices ul{
+    margin-top: 10px;
+    padding: 0;
+    height: 240px;
+    
+
+   }
+   h4{
+    width: 100%;
+    padding: 0;
+   }
+
+   button{
+    height:35px;
+    width: 35%;
+    border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 800;
+  border-radius: 8px;
+  text-transform: uppercase;
+   }
+
+   footer ul li{
+    list-style: none;   
+    display: inline;
+    padding: 10px;
+    
+   }
+
+   footer{
+    display: grid;
+    text-align: right;
+    width: 70%;
+    background-color: gainsboro;
+    margin: auto;
+    
+   }
+   
+   @media only screen and (max-width:1000px){
+    #header{
+    
+        display: block;
+        margin-top: 10px;
+        position: sticky;
+        top:0;
+        
+        text-align: center;
+        
+        height: auto;
+        
+   }
+   .nav-link{
+    display: block;
+    text-decoration: none;
+    
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px;
+}
+#Pricing{
+    display: block;
+    height: 1100px;
+    width: 50%;    
+    margin: auto;
+    font-size: 15px;  
+    
+}
+.prices{
+    margin-top:20px;
+   
+}
+.prices1{
+    height: 350px;
+    width: 100%;
+}
+
+.prices1 ul{
+
+height: 180px;
+}
+
+.prices2{
+    height: 330px;
+    width: 100%;
+}
+
+.prices2 ul{
+
+height: 150px;
+}
+
+.prices3{
+    height: 350px;
+    width: 100%;
+}
+
+.prices3 ul{
+
+height: 165px;
+}
+footer{
+        
+    text-align: right;
+    width: 100%;
+    background-color: gainsboro;
+    margin: auto;
+   }
+   #video{
+    width: 70%;
+    height: 300px;
+    
+    }
+    #Features
+{
+   height: 600px;
+   width: 80%;
+   
+    
+}
+.Materials{
+    
+    display: flex;  
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 200px;
+    width: 100%;      
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+button{
+    margin-top: -30px;
+}
+}
+/* .prices{
+    
+    height: 350px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 20px;}  
+    
+    footer{
+        
+        text-align: right;
+        width: 100%;
+        background-color: gainsboro;
+        margin: auto;
+       }
+     .prices ul{
+        margin-top: 10px;
+        height: 250px;      
+        border: 1px solid red; 
+       }
+       
+         /* 
+       button{
+        height:35px;
+        width: 35%;
+        border: 0;
+      margin: 15px 0;
+      background-color: #f1c40f;
+      font-weight: 800;
+      border-radius: 8px;
+      text-transform: uppercase;
+       } */ */
+
+       
+       
+      
